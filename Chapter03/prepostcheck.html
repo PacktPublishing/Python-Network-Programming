@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+         <script>
+             function checkme() {
+        var a=document.forms["search"]["cmds"].value;
+        var b=document.forms["search"]["searchbox"].value;
+        var c=document.forms["search"]["prepost"].value;
+        var d=document.forms["search"]["changeid"].value;
+        if (a==null || a=="")
+        {
+          alert("Please Fill All Fields");
+          return false;
+        }
+        if (b==null || b=="")
+        {
+          alert("Please Fill All Fields");
+          return false;
+        }
+        if (c==null || c=="")
+        {
+          alert("Please Fill All Fields");
+          return false;
+        }
+        if (d==null || d=="")
+        {
+          alert("Please Fill All Fields");
+          return false;
+        }
+                 document.getElementById("mypoint").style.display = "inline";
+             }
+</script>
+</head>
+<body>
+<h2> Pre/Post check selection </h2>
+<form name="search" action="checks.py" method="post" onsubmit="return checkme()">
+Host IP: (Multiple IPs seperated by comma)<br><input type="text" name="searchbox" size='80' required>
+<p></p>
+Commands (Select):
+<br>
+<select name="cmds" multiple style="width:200px;height:200px;" required>
+  <option value="show version">show version</option>
+  <option value="show ip int brief">show ip int brief</option>
+  <option value="show interface description">show interface description</option>
+  <option value="show clock">show clock</option>
+  <option value="show log">show log (last 100)</option>
+  <option value="show run">show run</option>
+  <option value="show ip bgp summary">show ip bgp summary</option>
+  <option value="show ip route">show ip route</option>
+  <option value="show ip route summary">show ip route summary</option>
+  <option value="show ip ospf">show ip ospf</option>
+  <option value="show interfaces status">show interfaces status</option>
+  
+</select>
+<p></p>
+Mantainence ID: <input type="text" name="changeid" required>
+<p></p>
+Pre/Post: <br>
+<input type="radio" name="prepost" value="pre" checked> Precheck<br>
+<input type="radio" name="prepost" value="post"> Postcheck<br>
+<p></p>
+<input type="submit" value="Submit">
+<br><br><br>
+</form> 
+<p><label id="mypoint" style="display: none;background-color: yellow;"><b>Please be Patient.... Gathering results!!!</b></label></p>
+</body>
+</html>
