@@ -11,9 +11,9 @@ By the end of this Learning Path, you will have learned how to analyze a network
 
 This Learning Path includes content from the following Packt products:
 
-Practical Network Automation by Abhishek Ratan
-Mastering Python Networking by Eric Chou
-Python Network Programming Cookbook, Second Edition by Dr. M. O. Faruque Sarker, Pradeeban Kathiravelu
+* Practical Network Automation by Abhishek Ratan
+* Mastering Python Networking by Eric Chou
+* Python Network Programming Cookbook, Second Edition by Dr. M. O. Faruque Sarker, Pradeeban Kathiravelu
 
 ## What you will learn
 * Create socket-based networks with asynchronous models
