@@ -15,7 +15,6 @@ Practical Network Automation by Abhishek Ratan
 Mastering Python Networking by Eric Chou
 Python Network Programming Cookbook, Second Edition by Dr. M. O. Faruque Sarker, Pradeeban Kathiravelu
 
-
 ## What you will learn
 * Create socket-based networks with asynchronous models
 * Develop client apps for web APIs, including S3 Amazon and Twitter
