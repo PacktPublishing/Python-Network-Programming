@@ -1,7 +1,3 @@
-## [Get this title for $10 on Packt's Spring Sale](https://www.packt.com/V08655?utm_source=github&utm_medium=packt-github-repo&utm_campaign=spring_10_dollar_2022)
------
-For a limited period, all eBooks and Videos are only $10. All the practical content you need \- by developers, for developers
-
 [![GitHub issues](https://img.shields.io/github/issues/PacktPublishing/Python-Network-Programming.svg)](https://github.com/PacktPublishing/Python-Network-Programming/issues)
 [![GitHub forks](https://img.shields.io/github/forks/PacktPublishing/Python-Network-Programming.svg)](https://github.com/PacktPublishing/Python-Network-Programming/network)
 [![GitHub stars](https://img.shields.io/github/stars/PacktPublishing/Python-Network-Programming.svg)](https://github.com/PacktPublishing/Python-Network-Programming/stargazers)
