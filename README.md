@@ -1,3 +1,15 @@
+
+### Get this product for $5
+
+<i>Packt is having its biggest sale of the year. Get this eBook or any other book, video, or course that you like just for $5 each</i>
+
+
+<b><p align='center'>[Buy now](https://packt.link/9781788479387)</p></b>
+
+
+<b><p align='center'>[Buy similar titles for just $5](https://subscription.packtpub.com/search)</p></b>
+
+
 [![GitHub issues](https://img.shields.io/github/issues/PacktPublishing/Python-Network-Programming.svg)](https://github.com/PacktPublishing/Python-Network-Programming/issues)
 [![GitHub forks](https://img.shields.io/github/forks/PacktPublishing/Python-Network-Programming.svg)](https://github.com/PacktPublishing/Python-Network-Programming/network)
 [![GitHub stars](https://img.shields.io/github/stars/PacktPublishing/Python-Network-Programming.svg)](https://github.com/PacktPublishing/Python-Network-Programming/stargazers)
